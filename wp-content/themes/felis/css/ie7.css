@@ -1,0 +1,19 @@
+ul.accordion li a.title span.acc-arr {
+	margin-top:-14px
+}
+
+.mini-menu span.mini,.search {
+	background:url(../images/butt-wrap-bg.png) repeat;
+}
+
+#search div input {
+	margin-top:-2px;
+}
+
+#reply div.button input,#contact div.button input {
+	border:0 none
+}
+
+.copyr-spacer div.social ul {
+	float:none
+}

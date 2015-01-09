@@ -1,0 +1,1447 @@
+/*
+
+	1.	Document Setup (body, common classes, structure etc.)
+	
+	2.	Home page styles
+	
+		2-1.	Logo and Nav Menu
+		2-2.	Slider
+		2-3. 	Check It!
+		2-4		Content Slider styles
+		2-5.	Images and effects
+		
+
+	3.	About page styles
+		
+	4.	Services page styles
+	
+	5.	Portfolio V1 styles
+	
+	6.  Portfolio V2 styles
+	
+	7.	Blog Template
+
+		7-1.	Posts
+		7-2.	Comments
+		7-3.	Replay form
+		
+	8.	Contact page styles
+		
+	9.	Footer Styles
+
+*/
+/*--------------------------- 1 - START DOCUMENT SETUP, COMMON CLASSES ------*/
+header,content,footer {
+	clear:both;
+	display:block
+}
+
+input,textarea {
+	outline:none
+}
+
+body {
+	background-color:#f0f0f0;
+	font-size:13px;
+	color:#656565;
+	font-family:'PT Sans',sans-serif;
+	min-height:100%;
+	height:auto!important;
+	height:100%
+}
+
+html,body {
+	width:100%;
+	min-width:980px
+}
+
+.clear {
+	clear:both;
+	display:block;
+	overflow:hidden;
+	visibility:hidden;
+	width:0;
+	height:0
+}
+
+.clearfix:before,.clearfix:after {
+	content:'\0020';
+	display:block;
+	overflow:hidden;
+	visibility:hidden;
+	width:0;
+	height:0
+}
+
+.clearfix:after {
+	clear:both
+}
+
+.clearfix {
+	zoom:1
+}
+
+/*--------------------------- START THEME COLOR -----------------------------*/
+.nivo-caption p span,.nivo-caption p p,.breadcramp p,.breadcramp span,.tipswift-inner {
+	background:#43a02a
+}
+
+.proj-img a:hover {
+	background:url(../images/more-bt.png) #43a02a 50% 50% no-repeat
+}
+
+.proj-img a.zoom:hover {
+	background:url(../images/zoom.png) #43a02a 50% 50% no-repeat;
+	z-index:50
+}
+
+#search div.search-btn input:hover {
+	background:url(../images/search.png) #43a02a no-repeat 45% 50%;
+	cursor:pointer
+}
+
+.tipswift,ul.accordion li a.title:hover {
+	border-color:#43a02a
+}
+
+a:hover,p a,.clr,.short-tour h2 span,ul.navmenu li ul li a:hover,.tweet_text a,.post p span strong a:hover,#map-side-bar div.map-location a:hover,#footer-wrap div.tagcloud a:hover,p.auth-cat strong a:hover,.sidebar .widget_recent_comments a:hover {
+	color:#43a02a
+}
+
+/*--------------------------- END THEME COLOR -------------------------------*/
+/*-------------------- START HEADER AND FOOTER BACKGROUND -------------------*/
+#top-container {
+	background:url(../images/patterns/pattern3.png) #e8e8e8 repeat
+/*	background:url(../images/patterns/pattern3.png) #282828 repeat */
+}
+
+#footer-wrap {
+	background:url(../images/patterns/pattern3-footer.png) #282828 repeat
+}
+
+/*-------------------- END HEADER AND FOOTER BACKGROUND ---------------------*/
+a.visited,a,.portfolio-pagn span a.page-active,.portfolio-pagn span a:hover {
+	color:#656565;
+	text-decoration:none
+}
+
+p {
+	line-height:1.6em;
+	margin-bottom:7px
+}
+
+.float-l {
+	float:left
+}
+
+.float-r {
+	float:right
+}
+
+.bott-27 {
+	margin-bottom:27px
+}
+
+.bott-15 {
+	margin-bottom:15px
+}
+
+.ml-10 {
+	margin-left:10px
+}
+
+.wrap720 {
+	width:720px
+}
+
+.col1-2,.col1-3,.small-post,.col1-4,.wrap720,.col1-5,.col1-6,.col1-12,.item-holder1,.col2-3 {
+	float:left;
+	margin-right:20px
+}
+
+.col1-2 {
+	width:460px
+}
+
+.col1-3 {
+	width:300px
+}
+
+.col1-4 {
+	width:220px
+}
+
+.col1-5 {
+	width:172px
+}
+
+.col1-6,.item-holder1 {
+	width:140px
+}
+
+.col4-1 {
+	width:700px
+}
+
+.col1-12 {
+	width:50px
+}
+
+.col2-3 {
+	width:620px
+}
+
+.small-post {
+	width:350px
+}
+
+.omega {
+	margin-right:0!important
+}
+
+h1,h2,h3,h4,h5,h6,.heading a,.post-mod h6 a,.descr a,.mini-menu span.phone,.post p.auth-cat,.tweet_text a:hover,.post p span strong a,p a:hover {
+	color:#202020
+}
+
+.mini-menu span.mini,.search,.mini-menu span span,ul.navmenu li,ul.portfolio-filter li,.button,.button span,.comment-reply-link,.comment-reply-login,.comment-reply-link span,.comment-reply-login span,.button input,.button-t-s,.button-t-s span,.portfolio-pagn span,.portfolio-pagn span a,.content-slider-nav #myController span.jFlowControl,.proj-img a,.proj-img a.zoom,.proj-img a,ul.accordion li a.title {
+	-webkit-border-radius:50px;
+	-moz-border-radius:50px;
+	border-radius:50px
+}
+
+/*--------------------------- 1 - END DOCUMENT SETUP, COMMON CLASSES ------*/
+/*--------------------------- 2 - START HOME PAGE STYLES ------------------*/
+#top-container {
+	position:relative;
+	width:100%
+}
+
+#top-container .shine-top {
+	width:100%;
+	background:url(../images/top-shine.png) no-repeat 50% 0
+}
+
+.bottom-mask {
+	position:absolute;
+	left:0;
+	bottom:0;
+	height:45px;
+	width:100%;
+	min-width:980px;
+	z-index:400;
+	background:url(../images/bottom-mask.png) no-repeat 50% 0
+}
+
+.top-wrap,#content {
+	width:980px;
+	margin:0 auto
+}
+
+#content {
+	overflow:hidden;
+}
+
+.top-info {
+	padding:16px 20px;
+	font-size:12px
+}
+
+.nivoSlider, .mini-menu {
+	overflow:hidden
+}
+
+.mini-menu span.mini,.search {
+	height:28px;
+	background-color:rgba(0,0,0,.05)!important
+}
+
+div.mini-menu span.mini {
+	margin-right:25px;
+}
+
+.mini-menu span span {
+	height:26px;
+	padding:0 16px;
+	background:#fff;
+	display:block
+}
+
+.mini-menu span span a {
+	display:block;
+	height:100%;
+	line-height:23px;
+	float:left
+}
+
+.mini-menu span span img {
+	display:block;
+	float:left
+}
+
+.mini-menu span.phone {
+	float:left;
+	display:block;
+	height:26px;
+	line-height:23px
+}
+
+#search div {
+	display:inline;
+	float:left
+}
+
+#search div input {
+	height:26px;
+	width:153px;
+	color:#959595;
+	line-height:22px
+}
+
+#search div input.field {
+	-moz-border-radius:50px 0 0 50px;
+	-webkit-border-radius:50px 0 0 50px;
+	border-radius:50px 0 0 50px;
+	padding:0 16px
+}
+
+#search div.search-btn {
+	width:auto
+}
+
+#search div.search-btn input {
+	width:35px;
+	background:url(../images/search.png) #bebebe no-repeat 45% 50%;
+	-moz-border-radius:0 50px 50px 0;
+	-webkit-border-radius:0 50px 50px 0;
+	border-radius:0 50px 50px 0
+}
+
+.inner {
+	padding:0 20px;
+	background:#fff
+}
+
+.inner-blank {
+	padding:0 20px
+}
+
+.inner-t {
+	padding:40px 0 30px;
+	overflow:hidden
+}
+
+.shady {
+	height:3px;
+	width:100%;
+	background:#e4e4e4
+}
+
+/*--------------------------- 2-1 - START LOGO AND NAV --------------------*/
+.logo-menu {
+	z-index:500;
+	height:111px;
+	background:#fff;
+	position:relative
+}
+
+.logo {
+	position:absolute;
+	height:40px;
+	display:block;
+	bottom:37px;
+	left:34px
+}
+
+ul.navmenu {
+	position:absolute;
+	list-style:none;
+	height:67px;
+	bottom:0;
+	right:20px
+}
+
+ul.navmenu li,ul.portfolio-filter li {
+	position:relative;
+	border:1px #fff solid;
+	line-height:1em;
+	left:0;
+	top:0;
+	font-size:14px;
+	display:block;
+	margin-left:18px;
+	float:left
+}
+
+ul.portfolio-filter li {
+	border-color:#f0f0f0;
+	margin:0 10px 0 0
+}
+
+ul.navmenu li a,ul.portfolio-filter li a{
+	display:block;
+	line-height:1em;
+	padding:4px 14px
+}
+
+ul.navmenu li a.drop {
+	padding-right:28px;
+	background:url(../images/drop.png) no-repeat right center
+}
+
+ul.navmenu li.curr,ul.navmenu li:hover,ul.portfolio-filter li.curr,ul.portfolio-filter li:hover {
+	border:1px #e3e3e3 solid;
+	background:url(../images/menugrad.png) #fff repeat-x left bottom
+}
+
+ul.navmenu li a:hover,ul.portfolio-filter li a:hover,p.auth-cat strong a {
+	color:#656565
+}
+
+ul.navmenu li ul {
+	display:none;
+	padding-bottom:3px;
+	width:178px;
+	font-size:13px;
+	position:absolute;
+	background:url(../images/drop-shad.png) repeat-x left bottom
+}
+
+ul.navmenu li ul li:first-child,ul.navmenu li ul li:first-child:hover {
+	margin-top:1px;
+	padding-top:40px;
+	background:url(../images/heading-bg.gif) #fff no-repeat right 30px
+}
+
+ul.navmenu li ul li:last-child {
+	padding-bottom:15px
+}
+
+ul.navmenu li ul li {
+	background:#fff;
+	clear:both;
+	width:100%;
+	height:auto;
+	border:0;
+	margin:0;
+	-webkit-border-radius:0;
+	-moz-border-radius:0;
+	border-radius:0
+}
+
+ul.navmenu li ul li a {
+	display:block;
+	padding:10px 15px
+}
+
+ul.navmenu li ul li:hover {
+	border:0;
+	background:#fff
+}
+
+ul.navmenu li ul.sub-menu li ul.sub-menu,ul.navmenu li ul li ul.children {
+	position:absolute;
+	margin-top:-45px;
+	left:179px
+}
+
+ul.navmenu li ul.sub-menu li ul.sub-menu li,ul.navmenu li ul.sub-menu li ul.sub-menu li:hover,
+ul.navmenu li ul li ul.children li,ul.navmenu li ul li ul.children li:hover {
+	padding:0;
+	background:#fff
+}
+
+ul.navmenu li ul.sub-menu li ul.sub-menu li:first-child,ul.navmenu li ul li ul.children li:first-child {
+	padding-top:10px
+}
+
+ul.navmenu li ul.sub-menu li ul.sub-menu li:last-child, ul.navmenu li ul li ul.children li:last-child {
+	padding-bottom:15px
+}
+
+/*--------------------------- 2-1 - END LOGO AND NAV --------------------*/
+/*--------------------------- 2-2 - START SLIDER ------------------------*/
+/*---------- Other styles of the Slider at js/nivo/nivo-slider.css ------*/
+.main-slider,.portfolio-slider {
+	background:url(../images/loading.gif) #f7f7f7 no-repeat 50% 50%
+}
+
+.nivo-caption,.nivo-caption p {
+	color:#fff
+}
+
+/*--------------------------- 2-2 - END SLIDER --------------------------*/
+/*--------------------------- 2-3 - START CHECK IT ----------------------*/
+.short-tour,.page-description {
+	color:#202020;
+	padding:11px 10px 20px 10px;
+	overflow:hidden
+}
+
+.page-description {
+	font-size:18px;
+	padding:0 0 20px
+}
+
+.page-description span {
+	line-height:1.5em;
+	max-width:460px
+}
+
+.short-tour div {
+	line-height:1.6em;
+	width:780px
+}
+
+.short-tour p {
+	color:#656565;
+	margin-top:4px;
+	font-size:16px
+}
+
+.short-tour img {
+	margin-top:-10px
+}
+
+/*--------------------------- 2-3 - END CHECK IT ------------------------*/
+.icons {
+	text-align:center
+}
+
+img.icn {
+	margin:10px auto 16px;
+	display:block
+}
+
+/*Buttons*/
+.button,.button span,.comment-reply-link,.comment-reply-login,.comment-reply-link span,.comment-reply-login span,.button input,.button-t-s,.button-t-s span,.portfolio-pagn span,.portfolio-pagn span a {
+	display:inline-block
+}
+
+.button,.comment-reply-link,.comment-reply-login,.button-t-s,.portfolio-pagn span {
+	color:#202020;
+	cursor:pointer;
+	font-size:11px;
+	line-height:1em;
+	margin-top:7px;
+	background:url(../images/butt-wrap-bg.png) repeat;
+	padding:3px
+}
+
+.portfolio-pagn span {
+	margin-top:0
+}
+
+.button-t-s,.portfolio-pagn span {
+	padding:2px
+}
+
+.button span,.comment-reply-link span,.comment-reply-login span {
+	position:relative;
+	background:url(../images/butt-bg.png) #fff no-repeat right bottom;
+	border:1px #c7c7c7 solid;
+	padding:6px 35px 6px 15px
+}
+
+.button-t-s span,.portfolio-pagn span a {
+	width:17px;
+	height:17px;
+	text-align:center;
+	position:relative;
+	background:url(../images/menugrad.png) #fff no-repeat right bottom;
+	border:1px #c7c7c7 solid;
+	padding:6px
+}
+
+.team .descr .button span {
+	text-align:center;
+	width:45px
+}
+
+.portfolio-pagn span a {
+	padding:2px 8px;
+	line-height:1.5em;
+	display:block;
+	width:auto
+}
+
+.button span:hover,.comment-reply-link span:hover,.comment-reply-login span:hover,.button input:hover {
+	background:url(../images/butt-bg.png) #fff no-repeat right top
+}
+
+.portfolio-pagn span a:hover {
+	background:url(../images/butt-bg.png) #fff no-repeat left top
+}
+
+.button img {
+	position:absolute;
+	right:10px;
+	margin-top:-3px;
+	top:50%;
+	width:6px;
+	height:5px
+}
+
+.comment-reply-link img, .comment-reply-login img {
+	position:absolute;
+	right:6px;
+	margin-top:-5px;
+	top:50%;
+	width:10px;
+	height:10px
+}
+
+/*--------------------- 2-4 - START CONTENT SLIDER STYLES ---------------*/
+.content-slider-nav {
+	overflow:hidden;
+	margin-top:15px
+}
+
+.content-slider-nav div.jFlow-arrows span.jFlowPrev,.content-slider-nav div.jFlow-arrows span.jFlowNext,.works2-prev,.works2-next {
+	text-indent:-9999px;
+	z-index:1;
+	position:relative;
+	float:left;
+	width:39px;
+	height:39px;
+	background:url(../images/content-slider-arrows.png) no-repeat left top;
+	cursor:pointer
+}
+
+.content-slider-nav div.jFlow-arrows span.jFlowNext,.works2-next {
+	float:right;
+	background:url(../images/content-slider-arrows.png) no-repeat right top
+}
+
+.works2-prev,.works2-next {
+	float:right
+}
+
+.content-slider-nav div.jFlow-arrows span.jFlowPrev:hover,.works2-prev:hover {
+	background-position:left bottom
+}
+
+.content-slider-nav div.jFlow-arrows span.jFlowNext:hover,.works2-next:hover {
+	background-position:right bottom
+}
+
+.content-slider-nav div.jFlow-arrows {
+	height:39px;
+	position:relative
+}
+
+#myController {
+	position:absolute;
+	left:0;
+	right:0;
+	top:49%;
+	height:5px;
+	line-height:0;
+	text-align:center
+}
+
+.content-slider-nav #myController span.jFlowControl {
+	cursor:pointer;
+	display:inline-block;
+	border:1px #202020 solid;
+	margin:0 8px;
+	width:3px;
+	height:3px;
+	background:#202020
+}
+
+.content-slider-nav #myController span.jFlowControl.jFlowSelected,.content-slider-nav #myController span.jFlowControl:hover {
+	background:#fff
+}
+
+.jflow-content-slider,.slide-wrapper {
+	float:left;
+	width:620px;
+	overflow:hidden
+}
+
+/*--------------------- 2-4 - END CONTENT SLIDER STYLES -----------------*/
+/*--------------------- 2-5 - START IMAGES AND EFFECTS ------------------*/
+.item-holder,.item-holder1 {
+	background:#f0f0f0
+}
+
+.item-holder1 {
+	position:relative;
+	overflow:hidden;
+	height:auto;
+	padding-bottom:49px
+}
+
+.proj-img,.proj-img1 {
+	position:relative;
+	overflow:hidden
+}
+
+.preloader {
+	display:block;
+	background:url(../images/loading.gif) #f7f7f7 no-repeat 50% 50%
+}
+
+.proj-img a {
+	opacity:.9;
+	filter:alpha(opacity=90);
+	display:inline-block;
+	width:40px;
+	height:40px;
+	position:absolute;
+	top:-30px;
+	left:50%;
+	background:url(../images/more-bt.png) #202020 50% 50% no-repeat;
+	margin-top:-20px;
+	z-index:10
+}
+
+.sg-jsinit .proj-img img,.proj-img1 img {
+	display:block;
+	visibility:hidden
+}
+
+.proj-img img,.proj-img1 img {
+	display:block;
+	visibility:visible
+}
+
+.proj-img.works1 img {
+	width:680px
+}
+
+.proj-img img.l-w {
+	width:300px;
+	height:145px
+}
+
+.proj-img img.l-w2 {
+	width:300px;
+	height:222px
+}
+
+.proj-img img.o-t {
+	width:140px;
+	height:105px
+}
+
+.proj-img a.zoom {
+	background:url(../images/zoom.png) #202020 50% 50% no-repeat;
+	margin-left:-37px
+}
+
+.proj-img.works1 a,.proj-img.works2 a {
+	margin-left:-20px
+}
+
+.proj-img a {
+	margin-left:-3px
+}
+
+.proj-img i {
+	display:block;
+	font-style:normal;
+	position:absolute;
+	width:100%;
+	height:100%;
+	z-index:9;
+	top:0;
+	left:0;
+	background:#fff;
+	opacity:0;
+	filter:alpha(opacity:0)
+}
+
+/*--------------------- 2-5 - END IMAGES AND EFFECTS --------------------*/
+.item-holder .descr,.item-holder1 .descr {
+	text-align:center;
+	padding:20px
+}
+
+.item-holder1 .descr {
+	text-align:left
+}
+
+.date-comments {
+	overflow:hidden;
+	display:block;
+	cursor:pointer;
+	background:#fff;
+	margin-right:20px;
+	float:left
+}
+
+.date-comments div {
+	text-align:center;
+	line-height:1.3em;
+	float:left;
+	background:url(../images/date-bg.png) #656565 no-repeat right bottom;
+	padding:7px 20px;
+	color:#fff
+}
+
+.date-comments span {
+	line-height:35px;
+	display:block;
+	float:left;
+	padding:5px 13px;
+	color:#656565
+}
+
+.post-mod {
+	overflow-y:hidden;
+	padding:10px 0;
+	border-bottom:1px #d1d1d1 solid
+}
+
+/*--------------------------- 2 - END HOME PAGE STYLES ----------------*/
+/*--------------------------- 3 - START ABOUT PAGE STYLES -------------*/
+.inner-pages-slider {
+	position:relative;
+	width:100%;
+	height:156px;
+	background:url(../images/loading.gif) #f7f7f7 no-repeat 50% 35%
+}
+
+.inner-pages-slider div.cont {
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	z-index:30;
+	height:156px;
+	overflow:hidden;
+	position:absolute
+}
+
+.breadcramp {
+	display:inline;
+	color:#fff;
+	margin-top:35px
+}
+
+.breadcramp p {
+	line-height:1.6em;
+	display:inline-block;
+	padding:0 20px;
+	font-size:15px;
+	font-weight:700;
+	margin:0
+}
+
+.breadcramp span {
+	line-height:2.3em;
+	max-width:680px;
+	display:block;
+	padding:0 20px;
+	margin:0
+}
+
+.breadcramp a,.breadcramp a:hover {
+	color:#fff
+}
+
+.inner-pages-slider div.cont .corner {
+	width:241px;
+	height:156px;
+	background:url(../images/corner.png) no-repeat right top
+}
+
+.inner-pages-slider div.cont a.hire {
+	display:block;
+	margin:24px 18px 0 0;
+	width:84px;
+	height:84px;
+	background:url(../images/hire.png) no-repeat
+}
+
+.page-nav {
+	line-height:1.6em;
+	font-size:12px;
+	color:#656565
+}
+
+.page-nav .prev-pg {
+	padding-left:15px;
+	background:url(../images/page-nav-arr.gif) no-repeat left center
+}
+
+.page-nav .next-pg {
+	padding-right:15px;
+	background:url(../images/page-nav-arr.gif) no-repeat right center
+}
+
+div.team {
+	overflow:hidden
+}
+
+.team-social {
+	position:absolute;
+	text-align:center;
+	bottom:0;
+	width:100%;
+	height:48px;
+	background:#f7f7f7;
+	border-top:1px #e2e2e2 solid
+}
+
+/*--------------------------- 3 - END ABOUT PAGE STYLES ---------------*/
+/*--------------------------- 4 - START SERVICES PAGE STYLES ----------*/
+img.serv-icns {
+	margin:5px 15px 3px 0;
+	float:left
+}
+
+div.testimonials {
+	font-style:italic;
+	line-height:1.4em;
+	font-size:14px;
+	padding-left:30px;
+	background:url(../images/quotes.png) no-repeat 0 5px
+}
+
+div.testimonials h6 {
+	font-style:normal;
+	text-align:right;
+	margin-bottom:15px
+}
+
+/*--------------------------- 4 - END SERVICES PAGE STYLES ------------*/
+/*--------------------------- 5 - START PORTFOLIO V1 STYLES -----------*/
+div.tagcloud a {
+	float:left;
+	line-height:1em;
+	border-left:1px #e9e9e9 solid;
+	margin:0 8px 10px 0;
+	font-size:12px!important;
+	display:block;
+	height:15px;
+	padding:6px 20px 6px 16px;
+	background:url(../images/tag.png) no-repeat right top
+}
+
+div.tagcloud a:hover {
+	background-position:right bottom
+}
+
+#footer-wrap div.tagcloud a {
+	color:#656565
+}
+
+ul.portfolio-filter {
+	overflow:hidden;
+	padding-bottom:20px
+}
+
+.portfolio-slider,.portfolio-img {
+	margin:0 0 20px
+}
+
+.portfolio-pagn {
+	margin-left:20px;
+	font-size:10px
+}
+
+.portfolio-pagn span {
+	margin-right:5px
+}
+
+.portfolio-pagn span a {
+	color:#b0b0b0
+}
+
+/*--------------------------- 5 - END PORTFOLIO V1 STYLES -------------*/
+/*--------------------------- 6 - START PORTFOLIO V2 STYLES -----------*/
+#works2 {
+	overflow:hidden;
+	width:960px
+}
+
+#works2 .col1-3 .item-holder {
+	margin-bottom:30px
+}
+
+#big-showcase {
+	display:none
+}
+
+#big-showcase ul li,.works2-nav {
+	overflow:hidden;
+	margin:0;
+	display:block;
+	width:100%
+}
+
+#big-showcase .inner-t {
+	padding-top:20px
+}
+
+.works2-nav {
+	height:39px;
+	padding-top:20px
+}
+
+.works2-close {
+	display:inline-block;
+	width:39px;
+	height:39px;
+	background:url(../images/works2nav.png) no-repeat left top
+}
+
+.works2-close:hover {
+	cursor:pointer;
+	background-position:left bottom
+}
+
+.works2-prev {
+	margin-right:30px
+}
+.works2-next {
+	margin-right:-68px
+}
+
+/*---------------------- 6 - END PORTFOLIO V2 STYLES ------------------*/
+/*---------------------- 7 - START BLOG TENPLATE STYLES ---------------*/
+/*--------------------------- 7-1 - START POSTS -----------------------*/
+.posts .proj-img img {
+	width:680px;
+	height:300px
+}
+
+.small-posts-wrap {
+	width:740px;
+	overflow:hidden
+}
+
+.small-post .proj-img img {
+	width:310px;
+	height:140px
+}
+
+.posts .col1-12 {
+	padding:5px 5px 22px;
+	font-size:30px;
+	color:#fff;
+	cursor:pointer;
+	text-align:center;
+	line-height:1em
+}
+
+.posts .col1-12 span {
+	display:block;
+	line-height:1em;
+	width:100%
+}
+
+.posts .col1-12 span.post-date {
+	text-transform:uppercase;
+	padding-top:2px;
+	font-size:14px
+}
+
+.posts .col1-12 span.num-comm {
+	font-size:12px;
+	padding-top:17px;
+	color:#202020
+}
+
+.post {
+	padding-left:80px
+}
+
+.posts .col1-12 {
+	background:url(../images/bubble.png) #656565 no-repeat center bottom
+}
+
+/*--------------------------- 7-1 - END POSTS -------------------------*/
+/*--------------------------- 7-2 - START COMMENTS --------------------*/
+ul.comments-list li {
+	display:block;
+	margin:25px 0 0 0;
+	overflow:hidden
+}
+
+ul.comments-list li a.avatar img {
+	width:60px;
+	height:60px;
+	display:block
+}
+
+ul.comments-list ul.children {
+	padding-left:20px;
+	background:url(../images/children.gif) no-repeat left top
+}
+
+/*--------------------------- 7-2 - END COMMENTS ----------------------*/
+/*--------------------------- 7-3 - START REPLAY FORM -----------------*/
+#reply,#contact {
+	margin-top:20px
+}
+
+#reply label,#contact label {
+	float:left;
+	display:block;
+	line-height:29px;
+	width:80px
+}
+
+#reply input,#reply textarea,#contact input,#contact textarea {
+	color:#656565;
+	border:1px #e0e0e0 solid
+}
+
+#reply input,#contact input {
+	margin-bottom:20px;
+	height:27px;
+	line-height:27px;
+	width:220px;
+	padding:0 10px
+}
+
+#reply textarea,#contact textarea {
+	line-height:1.3em;
+	margin-left:80px;
+	width:435px;
+	min-width:435px;
+	max-width:600px;
+	height:130px;
+	padding:10px
+}
+
+#reply div.button,#contact div.button {
+	display:inline;
+	padding:2px
+}
+
+#reply div.button input,#contact div.button input {
+	display:inline;
+	width:auto;
+	outline:0;
+	border:1px #c7c7c7 solid;
+	padding:0 15px;
+	background:url(../images/butt-bg.png) #fff left bottom
+}
+
+#reply div.button input:hover,#contact div.button input:hover {
+	background-position:left top
+}
+
+#reply div.send-wrap,#contact div.send-wrap {
+	color:#9F9F9F;
+	padding-left:80px;
+	width:455px
+}
+
+.send-wrap {
+	overflow:hidden;
+	margin:20px 0 0
+}
+
+.send-wrap div {
+	margin:0
+}
+
+.send-wrap div input {
+	display:inline;
+	line-height:1.6em;
+	margin:0!important
+}
+
+.respond-logged #message {
+	margin-left:0
+}
+
+.respond-logged .send-wrap {
+	padding-left:0!important
+}
+
+/*--------------------------- 7-3 - END REPLAY FORM -------------------*/
+.tweet_time a {
+	color:#9f9f9f
+}
+
+/*--------------------------- 7 - END BLOG PAGE STYLES ----------------*/
+/*--------------------------- 8 - START CONTACT PAGE STYLES -----------*/
+#map {
+	width:680px;
+	height:300px
+}
+
+#map-side-bar {
+	margin-bottom:10px
+}
+
+#map-side-bar div.map-location a {
+	color:#202020
+}
+
+#map-side-bar div.map-location {
+	margin-bottom:10px
+}
+
+.contact-info,.contact-info p {
+	line-height:1.3em
+}
+
+.contact-info div div {
+	width:70px;
+	float:left
+}
+
+.contact-info div p {
+	padding-left:80px
+
+}
+
+/*--------------------------- 8 - END CONTACT PAGE STYLES -------------*/
+/*--------------------------- 9 - START FOOTER ------------------------*/
+#footer-wrap {
+	overflow:hidden;
+	position:relative;
+	margin-top:40px
+}
+
+#footer-wrap .col1-4 {
+	margin-top: 27px
+}
+
+.top-mask {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	min-width:980px;
+	height:50px;
+	background:url(../images/top-mask.png) no-repeat center top
+}
+
+.shine {
+	width:100%;
+	min-width:980px;
+	padding-top:73px;
+	background:url(../images/shine.png) no-repeat center top
+}
+
+#footer-wrap .inner-blank {
+	width:960px;
+	padding:0 0 0 20px;
+	margin:0 auto
+}
+
+#footer-wrap .copyr-spacer .inner-blank {
+	width:940px;
+	padding:0 20px
+}
+
+#footer-wrap h4 {
+	overflow:hidden;
+	color:#fff!important
+}
+
+#footer-wrap h4 img {
+	margin-top:5px;
+	float:right
+}
+
+#footer-wrap a:hover {
+	color:#fff
+}
+
+#footer-wrap,#footer-wrap a {
+	color:#a4a4a4
+}
+
+.copyr-top {
+	width:100%;
+	min-width:980px;
+	height:40px;
+	background:url(../images/copyrights-top.png) no-repeat 50% 0
+}
+
+.copyr-spacer {
+	line-height:1.6em;
+	width:100%;
+	padding:10px 0 14px;
+	background:url(../images/copyrights-spacer.png) repeat-y 50% 0
+}
+
+.copyr-spacer div.social {
+	display:inline;
+	width:auto;
+	float:right
+}
+
+div.social span {
+	float:left
+}
+
+.copyr-spacer div.social ul {
+	display:block;
+	float:right
+}
+
+.copyr-spacer div.social ul li {
+	margin-left:10px;
+	display:block;
+	float:left
+}
+
+.copyr-spacer div.social ul li a {
+	display:block
+}
+
+.copyr-spacer div.social ul li a:hover {
+	opacity:.8;
+	filter:alpha(opacity=80)
+}
+
+a.totop {
+	display:block;
+	width:35px;
+	height:27px;
+	margin:-24px auto 0;
+	background:url(../images/totop.png) no-repeat center top
+}
+
+/*--------------------------- 9 - END FOOTER --------------------------*/
+
+/* WP */
+.alignleft {
+	float:left;
+	margin:20px 20px 20px 0
+}
+
+.alignright {
+	float:right;
+	margin:20px 0 20px 20px
+}
+
+.sg_message {
+	background:none repeat scroll 0 0 #FFF;
+	border:1px solid #DFDFDF;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	color:#333;
+	font-family:"Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+	padding:1em 2em;
+	margin:0 0 20px
+}
+
+.sg_message p {
+	margin:1.5em 0!important
+}
+
+header .sg_message {
+	margin:0;
+	border:none;
+	-webkit-border-radius:0;
+	-moz-border-radius:0;
+	border-radius:0
+}
+
+.shine .sg_message {
+	margin: 0 20px 20px 0
+}
+
+.widget_text {
+	line-height:1.6em
+}
+
+.widget_portfolio_tag_cloud {
+	overflow:hidden
+}
+
+
+#wp-calendar caption {
+	line-height:2em;
+	font-weight:700;
+	color:#fff;
+	background:#4C4C4C
+}
+
+.sidebar #wp-calendar caption {
+	background:#BEBEBE
+}
+
+#wp-calendar thead tr {
+	border:1px #4C4C4C solid
+}
+
+.sidebar #wp-calendar thead tr {
+	border:1px #BEBEBE solid
+}
+
+#wp-calendar tr td,#wp-calendar thead tr th {
+	padding:3px 0
+}
+
+#wp-calendar {
+	text-align:center;
+	width:100%
+}
+
+#wp-calendar tfoot tr td#prev {
+	text-align:left
+}
+
+#wp-calendar tfoot tr td#next {
+	text-align:right
+}
+
+.widget_search,.widget_tag_cloud {
+	overflow:hidden;
+}
+
+.sidebar .widget_recent_comments a {
+	color:#202020
+}
+
+.wp-caption .wp-caption-text:before {
+	color:#656565;
+	content: "" !important;
+	font-size:14px;
+	font-style:normal;
+	font-weight:700;
+	margin-right:5px;
+	position:absolute;
+	left:10px;
+	top:7px
+}
+
+.gallery {
+	background:#fff;
+	margin-bottom:20px!important
+}
+
+.gallery img {
+	margin:0!important;
+	border:0 none!important
+}
+
+.gallery-item {
+	overflow:hidden;
+	width:auto!important
+}
+
+.gallery-icon a{
+	display:block;
+	width:auto;
+	height:100%;
+}
+
+.gallery-caption {
+	font-size:13px
+}
+
+.blog .sticky .entry-header .entry-meta {
+	clip:rect(1px 1px 1px 1px);
+/* IE6, IE7 */
+	clip:rect(1px,1px,1px,1px);
+	position:absolute!important
+}
+
+.commentlist > li.bypostauthor {
+	background:#fff;
+	border-color:#d3d3d3
+}

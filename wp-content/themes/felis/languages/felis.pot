@@ -1,0 +1,737 @@
+# Copyright (C) 2012 Felis by Fireform
+# This file is distributed under the same license as the Felis template.
+msgid ""
+msgstr ""
+"Project-Id-Version: FELIS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-01-12 05:54+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2012-01-12 05:56+0200\n"
+"Last-Translator: Fireform <twm2003@gmail.com>\n"
+"Language-Team: \n"
+
+#: 404.php:4
+msgid "We're sorry, the file you requested could not be found. Please check for a mis-typed URL error, then press the refresh button on your browser."
+msgstr ""
+
+#: archive.php:32
+#: pg-blog.php:54
+#: single.php:76
+msgid "Posted by"
+msgstr ""
+
+#: archive.php:32
+#: pg-blog.php:54
+#: single.php:76
+msgid "in"
+msgstr ""
+
+#: archive.php:38
+#: pg-blog.php:60
+#: search.php:27
+msgid "Read more"
+msgstr ""
+
+#: archive.php:50
+msgid "Empty"
+msgstr ""
+
+#: comments.php:3
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:11
+msgid "No Responses"
+msgstr ""
+
+#: comments.php:11
+msgid "One Response"
+msgstr ""
+
+#: comments.php:11
+msgid "% Responses"
+msgstr ""
+
+#: page.php:49
+msgid "Team is empty"
+msgstr ""
+
+#: page.php:87
+#: pg-home.php:39
+msgid "Extras is empty"
+msgstr ""
+
+#: page.php:167
+#: pg-home.php:105
+#: pg-portfolio.php:68
+#: pg-portfolio.php:216
+msgid "Portfolio is empty"
+msgstr ""
+
+#: pg-blog.php:71
+msgid "Blog is empty"
+msgstr ""
+
+#: pg-contact.php:33
+msgid "Name"
+msgstr ""
+
+#: pg-contact.php:36
+msgid "E-mail"
+msgstr ""
+
+#: pg-contact.php:39
+msgid "Website"
+msgstr ""
+
+#: pg-contact.php:48
+msgid "* required"
+msgstr ""
+
+#: pg-contact.php:62
+msgid "Address:"
+msgstr ""
+
+#: pg-contact.php:65
+msgid "Phone:"
+msgstr ""
+
+#: pg-contact.php:68
+msgid "Fax:"
+msgstr ""
+
+#: pg-contact.php:71
+msgid "Toll Free:"
+msgstr ""
+
+#: pg-portfolio.php:57
+#: pg-portfolio.php:116
+msgid "More"
+msgstr ""
+
+#: pg-portfolio.php:192
+msgid "All works"
+msgstr ""
+
+#: search.php:37
+msgid "Not Found"
+msgstr ""
+
+#: single.php:19
+#: single.php:87
+msgid "Sorry, no posts matched your criteria"
+msgstr ""
+
+#: functions/apperance/post-types.php:9
+msgid "Portfolio1"
+msgstr ""
+
+#: functions/apperance/post-types.php:10
+msgid "Portfolio Post"
+msgstr ""
+
+#: functions/apperance/post-types.php:11
+#: functions/apperance/post-types.php:36
+#: functions/apperance/post-types.php:60
+msgid "Add New"
+msgstr ""
+
+#: functions/apperance/post-types.php:12
+msgid "Add New Portfolio Post"
+msgstr ""
+
+#: functions/apperance/post-types.php:13
+#: functions/apperance/post-types.php:38
+#: functions/apperance/post-types.php:62
+msgid "Edit"
+msgstr ""
+
+#: functions/apperance/post-types.php:14
+msgid "Edit Portfolio Post"
+msgstr ""
+
+#: functions/apperance/post-types.php:15
+msgid "New Portfolio Post"
+msgstr ""
+
+#: functions/apperance/post-types.php:16
+msgid "View Portfolio"
+msgstr ""
+
+#: functions/apperance/post-types.php:17
+msgid "View Portfolio Post"
+msgstr ""
+
+#: functions/apperance/post-types.php:18
+msgid "Search Portfolio Posts"
+msgstr ""
+
+#: functions/apperance/post-types.php:19
+msgid "No portfolio posts found"
+msgstr ""
+
+#: functions/apperance/post-types.php:20
+msgid "No portfolio posts in Trash"
+msgstr ""
+
+#: functions/apperance/post-types.php:21
+msgid "Parent Portfolio"
+msgstr ""
+
+#: functions/apperance/post-types.php:29
+msgid "Portfolio Categories"
+msgstr ""
+
+#: functions/apperance/post-types.php:30
+msgid "Portfolio Tags"
+msgstr ""
+
+#: functions/apperance/post-types.php:34
+msgid "Our Team"
+msgstr ""
+
+#: functions/apperance/post-types.php:35
+msgid "Our Team Post"
+msgstr ""
+
+#: functions/apperance/post-types.php:37
+msgid "Add New Our Team Post"
+msgstr ""
+
+#: functions/apperance/post-types.php:39
+msgid "Edit Our Team Post"
+msgstr ""
+
+#: functions/apperance/post-types.php:40
+msgid "New Our Team Post"
+msgstr ""
+
+#: functions/apperance/post-types.php:41
+msgid "View Our Team"
+msgstr ""
+
+#: functions/apperance/post-types.php:42
+msgid "View Our Team Post"
+msgstr ""
+
+#: functions/apperance/post-types.php:43
+msgid "Search Our Team Posts"
+msgstr ""
+
+#: functions/apperance/post-types.php:44
+msgid "No our team posts found"
+msgstr ""
+
+#: functions/apperance/post-types.php:45
+msgid "No our team posts in Trash"
+msgstr ""
+
+#: functions/apperance/post-types.php:46
+#: functions/apperance/post-types.php:70
+msgid "Parent"
+msgstr ""
+
+#: functions/apperance/post-types.php:54
+msgid "Team Categories"
+msgstr ""
+
+#: functions/apperance/post-types.php:58
+msgid "Extras"
+msgstr ""
+
+#: functions/apperance/post-types.php:59
+msgid "Extra Post"
+msgstr ""
+
+#: functions/apperance/post-types.php:61
+msgid "Add New Extra Post"
+msgstr ""
+
+#: functions/apperance/post-types.php:63
+msgid "Edit Extra Post"
+msgstr ""
+
+#: functions/apperance/post-types.php:64
+msgid "New Extra Post"
+msgstr ""
+
+#: functions/apperance/post-types.php:65
+msgid "View Extras"
+msgstr ""
+
+#: functions/apperance/post-types.php:66
+msgid "View Extra Post"
+msgstr ""
+
+#: functions/apperance/post-types.php:67
+msgid "Search Extra Posts"
+msgstr ""
+
+#: functions/apperance/post-types.php:68
+msgid "No extra posts found"
+msgstr ""
+
+#: functions/apperance/post-types.php:69
+msgid "No extra posts in Trash"
+msgstr ""
+
+#: functions/apperance/post-types.php:78
+msgid "Extra Categories"
+msgstr ""
+
+#: functions/apperance/sidebars.php:9
+msgid "Right Sidebar"
+msgstr ""
+
+#: functions/apperance/sidebars.php:10
+msgid "Widgets inserted here will show up in the sidebar sections for pages."
+msgstr ""
+
+#: functions/futures/tpl.php:43
+#, php-format
+msgid "%s Category"
+msgstr ""
+
+#: functions/futures/tpl.php:45
+#: functions/futures/tpl.php:47
+#: functions/futures/tpl.php:49
+#, php-format
+msgid "Archive for %s"
+msgstr ""
+
+#: functions/futures/tpl.php:51
+msgid "Search Results"
+msgstr ""
+
+#: functions/futures/tpl.php:53
+msgid "Author Archive"
+msgstr ""
+
+#: functions/futures/tpl.php:56
+msgid "Portfolio Archive"
+msgstr ""
+
+#: functions/futures/tpl.php:58
+msgid "Blog Archive"
+msgstr ""
+
+#: functions/futures/tpl.php:61
+msgid "Attachment"
+msgstr ""
+
+#: functions/futures/tpl.php:63
+msgid "404 - File Not Found"
+msgstr ""
+
+#: functions/futures/tpl.php:65
+msgid "Hello!!!"
+msgstr ""
+
+#: functions/futures/tpl.php:89
+msgid "You are here:"
+msgstr ""
+
+#: functions/futures/tpl.php:91
+msgid "Home"
+msgstr ""
+
+#: functions/futures/tpl.php:267
+msgid "Previous post"
+msgstr ""
+
+#: functions/futures/tpl.php:268
+msgid "Next post"
+msgstr ""
+
+#: functions/futures/tpl.php:270
+msgid "Previous work"
+msgstr ""
+
+#: functions/futures/tpl.php:271
+msgid "Next work"
+msgstr ""
+
+#: functions/futures/tpl.php:273
+msgid "Previous page"
+msgstr ""
+
+#: functions/futures/tpl.php:274
+msgid "Next page"
+msgstr ""
+
+#: functions/futures/tpl.php:290
+msgid "<- Older Comments"
+msgstr ""
+
+#: functions/futures/tpl.php:291
+msgid "Newer Comments ->"
+msgstr ""
+
+#: functions/futures/tpl.php:307
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: functions/futures/tpl.php:307
+msgid "(Edit)"
+msgstr ""
+
+#: functions/futures/tpl.php:309
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions/futures/tpl.php:313
+msgid "Reply"
+msgstr ""
+
+#: functions/futures/tpl.php:314
+msgid "Log in to Reply"
+msgstr ""
+
+#: functions/futures/tpl.php:347
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: functions/futures/tpl.php:348
+#, php-format
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out?</a>"
+msgstr ""
+
+#: functions/futures/tpl.php:353
+msgid "Leave a comment"
+msgstr ""
+
+#: functions/futures/tpl.php:354
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: functions/futures/tpl.php:355
+msgid "(Cancel reply)"
+msgstr ""
+
+#: functions/futures/tpl.php:356
+msgid "Post Comment"
+msgstr ""
+
+#: functions/futures/wysiwyg/interface.php:10
+msgid "You are not allowed to be here"
+msgstr ""
+
+#: functions/modules/blog.php:91
+msgid "Theme"
+msgstr ""
+
+#: functions/modules/contact.php:127
+#: functions/modules/home.php:130
+#: functions/modules/page.php:156
+#: functions/modules/portfolio.php:73
+#: functions/modules/portfoliopost.php:97
+#: functions/modules/post.php:72
+msgid "Content"
+msgstr ""
+
+#: functions/modules/contact.php:144
+#: functions/modules/contact.php:178
+msgid "Latitude:"
+msgstr ""
+
+#: functions/modules/contact.php:148
+#: functions/modules/contact.php:178
+msgid "Longitude:"
+msgstr ""
+
+#: functions/modules/contact.php:152
+#: functions/modules/contact.php:178
+msgid "Title:"
+msgstr ""
+
+#: functions/modules/contact.php:156
+#: functions/modules/contact.php:178
+msgid "Bubble Text:"
+msgstr ""
+
+#: functions/modules/contact.php:249
+msgid "Our location"
+msgstr ""
+
+#: functions/modules/extra.php:86
+msgid "Extra"
+msgstr ""
+
+#: functions/modules/handf.php:253
+msgid "Header & Footer"
+msgstr ""
+
+#: functions/modules/handf.php:260
+#: functions/modules/portfoliopost.php:104
+#: functions/modules/portfoliopost.php:148
+msgid "Get Image"
+msgstr ""
+
+#: functions/modules/layout.php:81
+msgid "Layout"
+msgstr ""
+
+#: functions/modules/metaboxes-list.php:30
+msgid "Page Layout & Other Settings"
+msgstr ""
+
+#: functions/modules/metaboxes-list.php:62
+msgid "Home Page Settings"
+msgstr ""
+
+#: functions/modules/metaboxes-list.php:82
+msgid "Contact Page Settings"
+msgstr ""
+
+#: functions/modules/metaboxes-list.php:109
+msgid "Blog Settings"
+msgstr ""
+
+#: functions/modules/metaboxes-list.php:121
+msgid "Blog Layout & Other Settings"
+msgstr ""
+
+#: functions/modules/metaboxes-list.php:146
+#: functions/modules/metaboxes-list.php:229
+msgid "Portfolio Settings"
+msgstr ""
+
+#: functions/modules/metaboxes-list.php:158
+msgid "Portfolio Layout & Other Settings"
+msgstr ""
+
+#: functions/modules/metaboxes-list.php:192
+msgid "Post Layout & Other Settings"
+msgstr ""
+
+#: functions/modules/metaboxes-list.php:266
+msgid "Member Settings"
+msgstr ""
+
+#: functions/modules/metaboxes-list.php:279
+msgid "Extra Settings"
+msgstr ""
+
+#: functions/modules/ourteam.php:139
+msgid "Get Photo"
+msgstr ""
+
+#: functions/modules/ourteam.php:144
+msgid "Load Photo"
+msgstr ""
+
+#: functions/modules/ourteam.php:145
+msgid "Clear Photo"
+msgstr ""
+
+#: functions/modules/portfoliopost.php:109
+msgid "Load Image"
+msgstr ""
+
+#: functions/modules/portfoliopost.php:110
+msgid "Clear Image"
+msgstr ""
+
+#: functions/modules/portfoliopost.php:238
+msgid "Back to all works"
+msgstr ""
+
+#: functions/modules/seo.php:97
+msgid "SEO"
+msgstr ""
+
+#: functions/modules/sidebars.php:102
+msgid "Sidebars"
+msgstr ""
+
+#: functions/modules/slider.php:142
+msgid "Slider"
+msgstr ""
+
+#: functions/modules/slider.php:289
+msgid "No Slides in Slider"
+msgstr ""
+
+#: functions/modules/slider.php:291
+msgid "Add more slides"
+msgstr ""
+
+#: functions/sgpanel/sgpanel.php:63
+#: functions/sgpanel/sgpanel.php:110
+msgid "Theme Options"
+msgstr ""
+
+#: functions/sgpanel/sgpanel.php:87
+msgid "Save All Changes"
+msgstr ""
+
+#: functions/sgpanel/sgpanel.php:88
+msgid "Reset to Default"
+msgstr ""
+
+#: functions/sgpanel/sgpanel.php:101
+msgid "Settings saved"
+msgstr ""
+
+#: functions/sgpanel/sgpanel.php:106
+msgid "Settings reseted to default"
+msgstr ""
+
+#: functions/sgpanel/modules/sgp-general.php:87
+msgid "Get Logo"
+msgstr ""
+
+#: functions/sgpanel/modules/sgp-general.php:99
+msgid "Load Logo"
+msgstr ""
+
+#: functions/sgpanel/modules/sgp-general.php:100
+msgid "Clear Logo"
+msgstr ""
+
+#: functions/sgpanel/modules/sgp-general.php:145
+msgid "Get FavIcon"
+msgstr ""
+
+#: functions/sgpanel/modules/sgp-general.php:156
+msgid "Load FavIcon"
+msgstr ""
+
+#: functions/sgpanel/modules/sgp-general.php:157
+msgid "Clear FavIcon"
+msgstr ""
+
+#: functions/sgpanel/modules/sgp-theme.php:160
+msgid "Get Pattern"
+msgstr ""
+
+#: functions/widgets/widget.contact.php:6
+msgid "Contact Information Widget"
+msgstr ""
+
+#: functions/widgets/widget.contact.php:7
+msgid "SG - Contact"
+msgstr ""
+
+#: functions/widgets/widget.contact.php:12
+msgid "Contact Us"
+msgstr ""
+
+#: functions/widgets/widget.contact.php:54
+msgid "Email:"
+msgstr ""
+
+#: functions/widgets/widget.flickr.php:6
+msgid "Flickr photos"
+msgstr ""
+
+#: functions/widgets/widget.flickr.php:8
+msgid "SG - Flickr"
+msgstr ""
+
+#: functions/widgets/widget.flickr.php:13
+msgid "Our Photos on Flickr"
+msgstr ""
+
+#: functions/widgets/widget.flickr.php:73
+msgid "Flickr ID:"
+msgstr ""
+
+#: functions/widgets/widget.flickr.php:74
+msgid "Flickr Tags:"
+msgstr ""
+
+#: functions/widgets/widget.flickr.php:77
+msgid "Pictures Count:"
+msgstr ""
+
+#: functions/widgets/widget.flickr.php:86
+msgid "Text:"
+msgstr ""
+
+#: functions/widgets/widget.flickr.php:89
+msgid "Automatically add paragraphs"
+msgstr ""
+
+#: functions/widgets/widget.pcategories.php:6
+msgid "A list of portolio categories"
+msgstr ""
+
+#: functions/widgets/widget.pcategories.php:7
+msgid "SG - Portfolio Categories"
+msgstr ""
+
+#: functions/widgets/widget.pcategories.php:25
+msgid "Select Category"
+msgstr ""
+
+#: functions/widgets/widget.pcategories.php:78
+msgid "Display as dropdown"
+msgstr ""
+
+#: functions/widgets/widget.pcategories.php:81
+msgid "Show post counts"
+msgstr ""
+
+#: functions/widgets/widget.pcategories.php:84
+msgid "Show hierarchy"
+msgstr ""
+
+#: functions/widgets/widget.ptagcloud.php:6
+msgid "Your most used portfolio tags in cloud format"
+msgstr ""
+
+#: functions/widgets/widget.ptagcloud.php:7
+msgid "SG - Portfolio Tag Cloud"
+msgstr ""
+
+#: functions/widgets/widget.ptagcloud.php:41
+msgid "Taxonomy:"
+msgstr ""
+
+#: functions/widgets/widget.twitter.php:6
+msgid "Twitter Widget"
+msgstr ""
+
+#: functions/widgets/widget.twitter.php:7
+msgid "SG - Twitter"
+msgstr ""
+
+#: functions/widgets/widget.twitter.php:12
+msgid "Twitroll"
+msgstr ""
+
+#: functions/widgets/widget.twitter.php:27
+msgid "Loading tweets..."
+msgstr ""
+
+#: functions/widgets/widget.twitter.php:64
+msgid "Username:"
+msgstr ""
+
+#: functions/widgets/widget.twitter.php:68
+msgid "Twitts Count:"
+msgstr ""
+
+#: functions/widgets/widget.twitter.php:80
+msgid "Refresh Interval:"
+msgstr ""
+
+#: includes/contact-send.php:48
+msgid "Your message is sent."
+msgstr ""
+
+#: includes/contact-send.php:49
+#: includes/contact-send.php:52
+#: includes/contact-send.php:59
+msgid "Go Back"
+msgstr ""
+
+#: includes/contact-send.php:51
+msgid "There was a problem. Try again later."
+msgstr ""
